@@ -21,7 +21,7 @@ let ticketPrice = (tripDistance * 0.276);
 // Determino gli sconti per età
 
 if (clientAge > 65){
-    let ticketPrice = tripDistance - ((tripDistance * 100) / 42)
+    let ticketPrice = tripDistance - ((tripDistance * 100) / 42);
 }
 
 if (clientAge < 18){
@@ -30,5 +30,9 @@ if (clientAge < 18){
 
 // Arrotondo il prezzo
 
+let roundedPrice = ticketPrice.toFixed(2);
+
 // Stampo il risultato
+
+console.log(roundedPrice)
 
