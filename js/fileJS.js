@@ -4,3 +4,31 @@
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo) 
 // [questo richiederà un minimo di ricerca]
 
+
+
+// - Chiedo i km da percorrere
+
+let tripDistance = parseInt(prompt("Quanti km devi percorrere?"));
+
+// Chiedo l'età
+
+let clientAge = parseInt(prompt=("Quanti anni hai?"));
+
+// Fisso il prezzo per km
+
+let ticketPrice = (tripDistance * 0.276);
+
+// Determino gli sconti per età
+
+if (clientAge > 65){
+    let ticketPrice = tripDistance - ((tripDistance * 100) / 42)
+}
+
+if (clientAge < 18){
+    let ticketPrice = tripDistance - ((tripDistance * 100) / 21);
+}
+
+// Arrotondo il prezzo
+
+// Stampo il risultato
+
