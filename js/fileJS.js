@@ -12,11 +12,13 @@ let tripDistance = parseInt(prompt("Quanti km devi percorrere?"));
 
 // Chiedo l'età
 
-let clientAge = parseInt(prompt=("Quanti anni hai?"));
+let clientAge = parseInt(prompt("Quanti anni hai?"));
 
 // Fisso il prezzo per km
 
 let ticketPrice = (tripDistance * 0.276);
+
+
 
 // Determino gli sconti per età
 
